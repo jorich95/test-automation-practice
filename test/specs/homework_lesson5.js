@@ -19,6 +19,7 @@ describe('Lesson 5 homework', () => {
         
     })
 
+    
     it.only('Test 2', async () => {
         await browser.url('https://www.demoblaze.com/index.html')
         await browser.pause(2000)
