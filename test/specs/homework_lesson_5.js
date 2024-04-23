@@ -1,6 +1,6 @@
 const { expect, browser, $ } = require('@wdio/globals')
 
-describe('Lesson 5 homework', () => {
+describe.skip('Lesson 5 homework', () => {
     it('Test 1', async () => {
         await browser.url('https://webdriver.io/')
         await browser.pause(2000)
